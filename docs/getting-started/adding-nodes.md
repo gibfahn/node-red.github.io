@@ -30,6 +30,13 @@ or globally alongside Node-RED:
 
 You will need to restart Node-RED for it to pick-up the new nodes.
 
+### Adding npm packaged nodes to an existing project
+
+If you already have a project with Node-RED as a dependency, you can simply add
+npm modules containing nodes directly to your `package.json`.
+
+    npm install --save <npm-package-name>
+
 ### Installing individual node files
 
 It is also possible to install nodes by copying their `.js` and `.html` files into
